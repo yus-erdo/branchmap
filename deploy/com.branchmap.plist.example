@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.branchmap</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string><string>-c</string>
+    <string>cd "$HOME/branchmap" &amp;&amp; exec ./node_modules/.bin/tsx server/index.ts</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>NODE_ENV</key><string>production</string>
+    <key>PORT</key><string>5180</string>
+    <key>HOST</key><string>::</string>
+    <key>CLAUDE_PATH</key><string>/Users/YOU/.local/bin/claude</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/Users/YOU/Library/Logs/branchmap.log</string>
+  <key>StandardErrorPath</key><string>/Users/YOU/Library/Logs/branchmap.log</string>
+</dict>
+</plist>

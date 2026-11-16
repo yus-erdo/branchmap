@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.db
+*.db-wal
+*.db-shm
+.env*
+.DS_Store
+# personal deployment scripts/notes and design scratch
+deploy/local/
+design/
