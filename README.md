@@ -4,7 +4,9 @@ Explore a topic as a mind map. Ask a question and a short, Wikipedia-style answe
 TL;DR on top. Follow-up questions float around it. Click one, or type your own, to branch off. The
 map grows outward from your first question, and every branch remembers the path that led to it.
 
-![branchmap: a map that starts at "How do black holes form?" and branches into gravitational waves, with follow-up questions around each box](docs/screenshot.png)
+![Demo: asking "How do black holes form?", branching from a follow-up question, then asking a web-search question](docs/demo.gif)
+
+<sub>44-second demo (waiting is sped up). [Full-quality MP4](docs/demo.mp4)</sub>
 
 It runs on your own machine and uses your **Claude subscription** through the
 [Claude Agent SDK](https://docs.claude.com/en/docs/agent-sdk/overview) (the logged-in `claude` CLI),
@@ -25,6 +27,8 @@ not an API key.
 - **Saved maps:** maps are stored in SQLite and saved automatically. A ☰ list lets you open, rename
   and delete them, and the open map's ID is in the URL, so you can bookmark it.
 - **Light and dark themes** that follow your system setting.
+
+![A finished map: "How do black holes form?" branching into gravitational waves, with follow-up questions around each box](docs/screenshot.png)
 
 ## Requirements
 
