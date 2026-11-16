@@ -89,3 +89,7 @@ on your subscription, so keep it on localhost or a trusted network.
 - Collapse and expand branches.
 - Export a map or branch as Markdown.
 - A "meaningful directions" layout: up for the bigger picture, down for detail, left for origins, right for related topics.
+
+## License
+
+[MIT](LICENSE)
